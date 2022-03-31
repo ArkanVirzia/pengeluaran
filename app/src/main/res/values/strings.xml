@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">pegeluaran</string>
+    <string name="perhitungan_intro">Aplikasi ini memberitahu pengeluaran anada selama 1 bulan, anda apakah anda termasuk orang yang boros atua tidak, Cobalah sekarang !</string>
+    <string name="pemasukan_uang">Pemasukan_uang</string>
+    <string name="pengeluaran_uang">pengeluaran_uang_sebulan</string>
+    <string name="jenis_mata_uang">banyak_hari_pengeluaran</string>
+    <string name="dollar">30 hari</string>
+    <string name="rupiah">15 hari</string>
+    <string name="hitung">hitung</string>
+    <string name="bmi_x">Jumlah: %1$.2f</string>
+    <string name="Hemat">Hemat</string>
+    <string name="ideal">Ideal</string>
+    <string name="Boros">Boros</string>
+    <string name="kategori_x">Kategori: %1$s</string>
+    <string name="pemasukan_invalid">Pemasukan tidak boleh kosong.</string>
+    <string name="pengeluaran_invalid">Pengeluaran tidak boleh kosong.</string>
+    <string name="matauang_invalid">Pilih jenis mata uang.</string>
+
+</resources>
