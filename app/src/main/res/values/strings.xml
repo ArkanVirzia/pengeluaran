@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">pegeluaran</string>
-    <string name="perhitungan_intro">Aplikasi ini memberitahu pengeluaran anada selama 1 bulan, anda apakah anda termasuk orang yang boros atua tidak, Cobalah sekarang !</string>
+    <string name="perhitungan_intro">Aplikasi ini memberitahu pengeluaran anda selama 1 bulan, anda apakah anda termasuk orang yang boros atua tidak, Cobalah sekarang !</string>
+    <string name="penjelasan">Masukan jumlah uang yang anda dapatkan, lalu masukan pengeluaran anda dalam sebulan, aplikasi akan otomatis menghitung / memberi tahu apakah anda dalam sebulan ini boros atau tidak </string>
     <string name="pemasukan_uang">Pemasukan_uang</string>
     <string name="pengeluaran_uang">pengeluaran_uang_sebulan</string>
     <string name="jenis_mata_uang">banyak_hari_pengeluaran</string>
@@ -15,5 +16,7 @@
     <string name="pemasukan_invalid">Pemasukan tidak boleh kosong.</string>
     <string name="pengeluaran_invalid">Pengeluaran tidak boleh kosong.</string>
     <string name="matauang_invalid">Pilih jenis mata uang.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

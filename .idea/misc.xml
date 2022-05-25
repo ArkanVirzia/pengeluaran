@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Semester 5/Pengeluaran/app/src/main/res/layout/abaout_fragment.xml" value="0.2346014492753623" />
+        <entry key="..\:/Semester 5/Pengeluaran/app/src/main/res/layout/about_fragment.xml" value="0.2346014492753623" />
         <entry key="..\:/Semester 5/Pengeluaran/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Semester 5/Pengeluaran/app/src/main/res/layout/fragment_about.xml" value="0.115625" />
+        <entry key="..\:/Semester 5/Pengeluaran/app/src/main/res/layout/fragment_about2.xml" value="0.1015625" />
+        <entry key="..\:/Semester 5/Pengeluaran/app/src/main/res/menu/bottom_nav.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

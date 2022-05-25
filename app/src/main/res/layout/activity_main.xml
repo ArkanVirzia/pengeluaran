@@ -104,6 +104,8 @@
                 android:text="@string/rupiah" />
         </RadioGroup>
 
+
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
@@ -113,6 +115,29 @@
             android:text="@string/hitung"
             app:layout_constraintStart_toStartOf="@+id/radioGroup"
             app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <Button
+            android:id="@+id/Button_Help"
+            android:layout_width="71dp"
+            android:layout_height="32dp"
+            android:fontFamily="@font/actor"
+            android:text="Help"
+            android:textSize="11sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="287dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/perhitungan_intro"
+            android:layout_width="71dp"
+            android:layout_height="32dp"
+            android:fontFamily="@font/actor"
+            android:text="About"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="319dp" />
+
         <View
             android:id="@+id/divider"
             android:layout_width="match_parent"
