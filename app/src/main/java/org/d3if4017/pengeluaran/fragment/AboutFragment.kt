@@ -16,5 +16,6 @@ class AboutFragment : Fragment (){
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.about_fragment, container,false)
+
     }
 }

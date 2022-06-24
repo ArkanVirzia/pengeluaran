@@ -1,12 +1,17 @@
 package org.d3if4017.pengeluaran
 
+import android.app.Application
 import android.text.TextUtils
 import android.widget.Toast
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.work.ExistingWorkPolicy
+import androidx.work.OneTimeWorkRequestBuilder
+import androidx.work.WorkManager
 import org.d3if4017.pengeluaran.model.HasilPerhitungan
 import org.d3if4017.pengeluaran.model.KategoriPerhitungan
+import java.util.concurrent.TimeUnit
 
 class MainViewModel : ViewModel() {
 
@@ -40,4 +45,15 @@ class MainViewModel : ViewModel() {
         return kategori
     }
     fun getHasilPerhitungan(): LiveData<HasilPerhitungan?> = HasilPerhitungan
+
+    fun scheduleUpdater(app: Application) {
+        val request = OneTimeWorkRequestBuilder<UpdateWorker>()
+            .setInitialDelay(1, TimeUnit.MINUTES)
+            .build()
+        WorkManager.getInstance(app).enqueueUniqueWork(
+            MainActivity.CHANNEL_ID,
+            ExistingWorkPolicy.REPLACE,
+            request
+        )
+    }
 }
